@@ -1,0 +1,41 @@
+.container {
+   
+    height: 500px;
+    width: 500px;
+    
+    background: dodgerblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+
+}
+
+.jugadores {
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.tablero {
+    font-size: 50px;
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+
+.casillero {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
